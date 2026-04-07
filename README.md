@@ -19,5 +19,6 @@ File permission "rwd" can reference from Exercise01
 ln test3 <Desire_name>  #This will change the Link count for "test3"
 XX XX 1  :: the value 1 represent the bytes long, size will become larger by adding long context
 >> echo "Hello" > test1
+
 lrwxrwxrwx 1 XX XX 5 Jun 1 22:20 test6 -> test0  :: Create a shortcut for test6
 >> ln -s test0 test6  #This will add a "l" in front
