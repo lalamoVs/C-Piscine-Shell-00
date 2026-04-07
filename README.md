@@ -20,6 +20,7 @@ File permission "rwd" can reference from Exercise01
 
 -r-----r-- 2 XX XX 1 Jun 1 23:44 test3  :: the value 2 is a Link count, can be only change by adding/removing link
 >> ln test3 <Desire_name>  #This will change the Link count for "test3"
+
 XX XX 1  :: the value 1 represent the bytes long, size will become larger by adding long context
 >> echo "Hello" > test1
 
