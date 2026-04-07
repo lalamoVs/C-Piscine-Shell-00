@@ -1,8 +1,10 @@
 Exercise 00: Z
+
 create a file name "z" with the content of "Z"
 >> echo "Z" > z
 
 Exercise 01: testShell00
+
 create a file name "testShell00", with the permission of 
 r = 4, w = 2, x = 1, --- = 0. Octal representation
 (Read [r--]) 4, (Read + Execute [r-x]) 4+1, and (read Execute [r-x]) 4+1 for (owner, group, others)
@@ -11,6 +13,7 @@ r = 4, w = 2, x = 1, --- = 0. Octal representation
 >> chmod 455 testShell00  #This create permission for testSHell00
 
 Exercise 02: Oh yeah, mooore..
+
 drwx--xr-x  :: "d" is directory, to acheive that create a directory
 create files that has no "d" on it
 File permission "rwd" can reference from Exercise01
